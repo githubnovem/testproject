@@ -1,0 +1,10 @@
+Testsuite: testgrail.QuoteServiceSpec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 2.738 sec
+------------- Standard Output ---------------
+--Output from static quote service always returns quiche quote--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from static quote service always returns quiche quote--
+------------- ---------------- ---------------
+
+Testcase: static quote service always returns quiche quote took 2.674 sec

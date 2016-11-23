@@ -1,0 +1,9 @@
+@CHARSET "ISO-8859-1";
+
+.label
+{
+	font-family:'lucida grande',verdana,helvetica,arial,sans-serif;
+	font-weight: bold;
+	color: inherit;
+	font-size:20px
+}

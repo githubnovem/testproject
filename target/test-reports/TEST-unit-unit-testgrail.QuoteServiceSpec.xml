@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="JINKY-PC" name="testgrail.QuoteServiceSpec" tests="1" time="2.738" timestamp="2016-08-23T02:29:19">
+  <properties />
+  <testcase classname="testgrail.QuoteServiceSpec" name="static quote service always returns quiche quote" time="2.674" />
+  <system-out><![CDATA[--Output from static quote service always returns quiche quote--
+]]></system-out>
+  <system-err><![CDATA[--Output from static quote service always returns quiche quote--
+]]></system-err>
+</testsuite>
