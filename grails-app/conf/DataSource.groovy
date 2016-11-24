@@ -51,7 +51,13 @@ environments {
     production {
         dataSource {
             dbCreate = "update"
-			url = "jdbc:h2:prodDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE"
+						pooled = true
+			driverClassName = "com.mysql.jdbc.Driver"
+			username = "root"
+			password = ""
+			url = "jdbc:mysql://localhost:3306/test"
+			
+			//url = "jdbc:h2:prodDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE"
 			//url: "jdbc:mysql://localhost:3306/test"
 //            properties {
 //               // See http://grails.org/doc/latest/guide/conf.html#dataSource for documentation
